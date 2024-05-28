@@ -17,8 +17,9 @@ function App() {
         <MyComponent />
         
         <Routes>
-          <Route path="/" element={<SignInPage />} />
-          <Route path="/joinin" element={<JoinInPage />} /> 
+          <Route path="/responsive_page" element={<SignInPage />} />
+          <Route path="/signin" element={<SignInPage />} />
+          <Route path="/joinin" element={<JoinInPage />} />
         </Routes>
         <MainContent2 />
         <MainContent3 />
