@@ -64,7 +64,7 @@ function MyComponent2() {
           <Col md={3} className="d-flex flex-column mt-4 mt-md-0">
             <h2 className="font-weight-bold">Social Media</h2>
             <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/bc799829773953f1f8f956bbd5ff9303bcbbd59720e2a873cad3568242580b7d?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+              src="./FooterLogos.svg"
               alt="Social Media Image"
               className="img-fluid rounded mt-3"
             />

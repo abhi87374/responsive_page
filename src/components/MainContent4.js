@@ -7,7 +7,7 @@ function MainContent4() {
     <section className="d-flex justify-content-center align-items-center bg-white py-5">
       <Container className="bg-light rounded p-4" style={{ maxWidth: '1240px' }}>
         <header className="d-flex align-items-center gap-3 mb-4">
-          <Image src="https://cdn.builder.io/api/v1/image/assets/TEMP/94b9dbb4ba9a164c90211eeb1734d51bff611fc7b799a52453756defa0b7bd33?apiKey=a9b31426ea8c42508c8d83a25324d8b5&" alt="MainContent4 Logo" style={{ width: '40px', height: '40px' }} />
+          <Image src="./Vector.svg" alt="MainContent4 Logo" style={{ width: '40px', height: '40px' }} />
           <h2 className="m-0" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Testimonials</h2>
         </header>
         <p style={{ color: '#6d747a', letterSpacing: '0.36px', font: '300 18px/30px Poppins, sans-serif' }}>
@@ -24,14 +24,14 @@ function MainContent4() {
                 <Col className="d-flex align-items-center">
                   <div className="flex-grow-1" style={{ borderTop: '1px solid white' }}></div>
                   <time style={{ fontFamily: 'Poppins, sans-serif', fontSize: '12px', padding: '0 10px' }}>0:00</time>
-                  <Image src="https://cdn.builder.io/api/v1/image/assets/TEMP/c78dedfa9fdc6a6d41ac953854c81965f14b938f012556e069244fe44c9a2a3c?apiKey=a9b31426ea8c42508c8d83a25324d8b5&" alt="Play Button" style={{ width: '72px', aspectRatio: '1.2', borderRadius: '50%' }} />
+                  <Image src="./Ellipse 26.svg" alt="Play Button" style={{ width: '72px', aspectRatio: '1.2', borderRadius: '50%' }} />
                 </Col>
               </Row>
             </Card>
           </Col>
           <Col md={4} className="d-flex flex-column align-items-center mt-4">
             <div className="d-flex align-items-center gap-3">
-              <Image src="https://cdn.builder.io/api/v1/image/assets/TEMP/cae3697ba52a839eaf8e2363952e2e446e6cac6f3ca6bf000e4c9473bef58259?apiKey=a9b31426ea8c42508c8d83a25324d8b5&" alt="Author Bio Avatar" roundedCircle style={{ width: '100px' }} />
+              <Image src="./Ellipse 26.svg" alt="Author Bio Avatar" roundedCircle style={{ width: '100px' }} />
               <div>
                 <h3 style={{ color: '#8064a2', font: '600 18px Poppins, sans-serif', margin: 0 }}>Shubha Nagarajan</h3>
                 <p style={{ color: '#0096c8', font: '400 14px Poppins, sans-serif', marginTop: '10px' }}>Classical Dancer</p>

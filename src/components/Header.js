@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Form, Button } from "react-bootstrap";
 
 function MyComponent() {
   return (
@@ -8,7 +8,7 @@ function MyComponent() {
       <div className="container-fluid">
         <Navbar.Brand href="#">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/241e0c91d8805773ffde56a536664542c70d14a86fdbd5d495f50cc239103355?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+            src="https://s3-alpha-sig.figma.com/img/153c/f988/785cdcec05510cbdc9cb1b82a17b77fc?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RlKI0LRMfNJBbW33M~apblrBozbU3u0Q9YWLLVvqUZGHbBA8gSDP7EVxEjxXHkjVFjXtk~HQbxUYOLl-H9ieyOpAg2wJEr1OsP5n96o252DHMctnTISvDIL6VBISPtp19bq39nZLdLPvwMw6ic67bWoRI0x~mMfFQNDkERK86B4S2MiFX8zPM7wQGYR3tzsuaN5gQE1yyU~QabQZMPGt~kssUH2oTfgVcXsflWiYbqUdjH7E~LFnJADkRW58ivwxIlNedhE4tw5DevFC4YIZcuC3yCbU1He8tF7P8kkQdzEJiZ10reW8T8lq3~ZlKOT1zY6EnMZhloPS5~l00K9vRw__"
             alt="Logo"
             className="img-fluid"
             style={{ width: "300px" }}
@@ -20,7 +20,7 @@ function MyComponent() {
           <Form className="d-flex">
             <Button variant="outline-success">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/5b2e03e7fc5e1f7bc6e8a738c14b22d61ed888be5e855440c74116c657b7d5a4?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+                src="./search.svg"
                 alt="Search icon"
                 className="img-fluid"
                 style={{ width: "20px" }}
@@ -45,7 +45,7 @@ function MyComponent() {
               />
               <span className="input-group-text">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/5b2e03e7fc5e1f7bc6e8a738c14b22d61ed888be5e855440c74116c657b7d5a4?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+                  src="./search.svg"
                   alt="Search icon"
                   className="img-fluid"
                   style={{ width: "20px" }}
@@ -54,53 +54,71 @@ function MyComponent() {
               </span>
             </div>
           </Form>
-
           <Nav className="d-flex align-items-center">
-            <NavDropdown title="Explore" id="explore-dropdown">
-              <NavDropdown.Item href="#">People - Community</NavDropdown.Item>
-              <NavDropdown.Item href="#">Places - Venues</NavDropdown.Item>
-              <NavDropdown.Item href="#">Programs - Events</NavDropdown.Item>
-              <NavDropdown.Item href="#">Products - Store</NavDropdown.Item>
-              <NavDropdown.Item href="#">Blogs</NavDropdown.Item>
-            </NavDropdown>
-
-            <NavDropdown title="Hobbies" id="hobbies-dropdown">
-              <NavDropdown.Item href="#">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Something else here</NavDropdown.Item>
-            </NavDropdown>
-
-            <div className="d-flex align-items-center ms-4">
+            <div className="d-flex align-items-center">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/701e9733888cfdff19594600c5c672574b08aa6364ee41f17500f8149275911c?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
-                alt="Icon"
-                className="img-fluid me-2"
-                style={{ width: "24px" }}
-                loading="lazy"
-              />
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/d8cad4ac211838d272c805526817ddffdec7905fb8718a487d6f06a79c30151c?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
-                alt="Icon"
-                className="img-fluid me-2"
-                style={{ width: "24px" }}
-                loading="lazy"
-              />
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ff6fa902e58f9af0ebd6f490f7c685a246e62c0f24de198b7a691f942021f1f?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+                src="./Explore.svg"
                 alt="Icon"
                 className="img-fluid"
                 style={{ width: "24px" }}
                 loading="lazy"
               />
-            </div>
-            <Button variant="outline-primary" className="ms-4" style={{ color: "#8064A2" }}>
-              Sign In
-            </Button>
-          </Nav>
-        </Navbar.Collapse>
-      </div>
-    </Navbar>
-  );
+              <NavDropdown title="Explore" id="explore-dropdown">
+                <NavDropdown.Item href="#">People - Community</NavDropdown.Item>
+                <NavDropdown.Item href="#">Places - Venues</NavDropdown.Item>
+                <NavDropdown.Item href="#">Programs - Events</NavDropdown.Item>
+                <NavDropdown.Item href="#">Products - Store</NavDropdown.Item>
+                <NavDropdown.Item href="#">Blogs</NavDropdown.Item>
+              </NavDropdown>
+              </div>
+
+<div className="d-flex align-items-center">
+  <img
+    src="./Hobbies.svg"
+    alt="Icon"
+    className="img-fluid"
+    style={{ width: "24px" }}
+    loading="lazy"
+  />
+  <NavDropdown title="Hobbies" id="hobbies-dropdown">
+    <NavDropdown.Item href="#">Action</NavDropdown.Item>
+    <NavDropdown.Item href="#">Another action</NavDropdown.Item>
+    <NavDropdown.Item href="#">Something else here</NavDropdown.Item>
+  </NavDropdown>
+</div>
+</Nav>
+
+<div className="d-flex align-items-center ms-4">
+<img
+  src="./bookmark_black_24dp 1.svg"
+  alt="Icon"
+  className="img-fluid me-2"
+  style={{ width: "24px" }}
+  loading="lazy"
+/>
+<img
+  src="./notifications_black_24dp 1.svg"
+  alt="Icon"
+  className="img-fluid me-2"
+  style={{ width: "24px" }}
+  loading="lazy"
+/>
+<img
+  src="./Product 3.svg"
+  alt="Icon"
+  className="img-fluid"
+  style={{ width: "24px" }}
+  loading="lazy"
+/>
+</div>
+<Button variant="outline-primary" className="ms-4" style={{ color: "#8064A2" }}>
+Sign In
+</Button>
+</Navbar.Collapse>
+</div>
+</Navbar>
+);
 }
 
 export default MyComponent;
+

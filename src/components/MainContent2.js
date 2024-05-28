@@ -50,7 +50,7 @@ const InfoCard = ({ imgSrc, title, content, altText, buttonText, borderColor }) 
 const MainContent2 = () => {
   const cardsData = [
     {
-      imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/b85bd8c46aec3f0df5360a3ac5b11cfd5620eb5e636b4e05ed2552981b070ade?apiKey=a9b31426ea8c42508c8d83a25324d8b5&",
+      imgSrc: "./groups_black_24dp (1) 1.svg",
       title: "People",
       content:
         "Find a teacher, coach, or expert for your hobby interest in your locality. Find a partner, teammate, accompanist or collaborator.",
@@ -59,7 +59,7 @@ const MainContent2 = () => {
       borderColor: "#8064A2",
     },
     {
-      imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/cc89cc685b9666d001c5f09b2056f27c6fee855bdff77394731a3e83085aabfd?apiKey=a9b31426ea8c42508c8d83a25324d8b5&",
+      imgSrc: "./location_on_black_24dp 1.svg",
       title: "Place",
       content:
         "Find a class, school, playground, auditorium, studio, shop or an event venue. Book a slot at venues that allow booking through hobbycue.",
@@ -68,7 +68,7 @@ const MainContent2 = () => {
       borderColor: "#77933C",
     },
     {
-      imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/f9b97ad17208e60422f990990f52ee9c239f58c82e61f57948997807fdc6a580?apiKey=a9b31426ea8c42508c8d83a25324d8b5&",
+      imgSrc: "./shopping_basket_black_24dp (2) 1.svg",
       title: "Product",
       content:
         "Find equipment or supplies required for your hobby. Buy, rent or borrow from shops, online stores or from community members.",
@@ -77,7 +77,7 @@ const MainContent2 = () => {
       borderColor: "#C0504D",
     },
     {
-      imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/ccf8604f8f582f375b1c8e2b1cd4897b4053fee9a567cf2b09bb7f979b4a4e1e?apiKey=a9b31426ea8c42508c8d83a25324d8b5&",
+      imgSrc: "./event_available_black_24dp 2.svg",
       title: "Program",
       content:
         "Find events, meetups and workshops related to your hobby. Register or buy tickets online.",

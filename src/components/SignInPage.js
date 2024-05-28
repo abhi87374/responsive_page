@@ -43,7 +43,7 @@ function SignInPage() {
                   products, services or events. Hop on your hobbyhorse and enjoy the ride.
                 </p>
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/73e00ff195f8012a76aac87e41170b0260a68201dd3f65db13a9b1777f47ff35?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+                  src="./joinIn.svg"
                   alt="Hobby Image"
                   className="img-fluid mt-4"
                   style={{ aspectRatio: "3.23", objectFit: "cover", objectPosition: "center" }}
@@ -65,7 +65,7 @@ function SignInPage() {
                   </header>
                   <button className="btn btn-outline-primary d-flex justify-content-between align-items-center gap-2 my-3 w-100">
                     <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/f20043c95030375fb899cc082b2f7de981c0b64d99e7a4af7bc9f8c9880ae07a?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+                      src="./google.svg"
                       alt="Google"
                       className="img-fluid"
                       style={{ width: "16px", aspectRatio: "1", objectFit: "cover", objectPosition: "center" }}
@@ -74,7 +74,7 @@ function SignInPage() {
                   </button>
                   <button className="btn btn-outline-primary d-flex justify-content-between align-items-center gap-2 my-3 w-100">
                     <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/5bcae57a5043cfd1836d494b1c1bde80b68bd573640e61dca26c6b58b7d5583e?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+                      src="./facebook.svg"
                       alt="Facebook"
                       className="img-fluid"
                       style={{ width: "16px", aspectRatio: "1", objectFit: "cover", objectPosition: "center" }}

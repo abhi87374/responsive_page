@@ -45,7 +45,7 @@ function MainContent5() {
         <Row className="justify-content-center mt-5">
           <Col md={10}>
             <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/8b84c1c3c29bed98ed39d391e1c0fc6d28916723d6245510e08af29ec84206ec?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+              src="./MainContent5.svg"
               alt="Descriptive image text"
               className="img-fluid rounded"
               style={{ objectFit: 'cover', objectPosition: 'center' }}

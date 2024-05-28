@@ -23,7 +23,7 @@ function JoinInPage() {
                   If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products, services or events. Hop on your hobbyhorse and enjoy the ride.
                 </p>
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/34f4063257be9d6fcde6438acf7967dc29fd1479c4adbb164b62c66a33b8be13?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+                  src="./joinIn.svg"
                   alt="Content image"
                   className="img-fluid mt-4"
                   style={{ aspectRatio: "3.23", objectFit: "cover", objectPosition: "center" }}
@@ -45,7 +45,7 @@ function JoinInPage() {
                   </header>
                   <button className="btn btn-outline-primary d-flex justify-content-between align-items-center gap-2 my-3 w-100">
                     <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/84139556a50081c46544b75ef4f03232ff721f3027d74920ecbd5491514547c3?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+                      src="./google.svg"
                       alt="Google"
                       className="img-fluid"
                       style={{ width: "16px", aspectRatio: "1", objectFit: "cover", objectPosition: "center" }}
@@ -54,7 +54,7 @@ function JoinInPage() {
                   </button>
                   <button className="btn btn-outline-primary d-flex justify-content-between align-items-center gap-2 my-3 w-100">
                     <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/99163f2452aa1d1055befef85c246458a91025840d5bc6df3c9568a24d4846fd?apiKey=a9b31426ea8c42508c8d83a25324d8b5&"
+                      src="./facebook.svg"
                       alt="Facebook"
                       className="img-fluid"
                       style={{ width: "16px", aspectRatio: "1", objectFit: "cover", objectPosition: "center" }}
