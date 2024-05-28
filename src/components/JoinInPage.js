@@ -8,28 +8,44 @@ function JoinInPage() {
 
   return (
     <main className="bg-light-purple py-5" style={{ backgroundColor: "#F7F5F9" }}>
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-8">
-            <section>
-              <article className="mt-4">
-                <h1 className="text-primary fw-bold fs-2 fst-italic">
-                  Explore your <span className="text-info">hobby</span> or <span className="text-primary" style={{ color: "#8064A2" }}>passion</span>
-                </h1>
-                <p className="mt-4">
-                  Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers, suppliers, classes, workshops, and places to practice, participate or perform. Your hobby may be about visual or performing arts, sports, games, gardening, model making, cooking, indoor or outdoor activities…
-                </p>
-                <p className="mt-4">
-                  If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products, services or events. Hop on your hobbyhorse and enjoy the ride.
-                </p>
-                <img
-                  src="./joinIn.svg"
-                  alt="Content image"
-                  className="img-fluid mt-4"
-                  style={{ aspectRatio: "3.23", objectFit: "cover", objectPosition: "center" }}
-                />
-              </article>
-            </section>
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-8">
+          <section>
+            <article className="mt-4">
+              <h1 className="text-primary fw-bold fs-2">
+                <span className="fst-italic">
+                  {" "}
+                  <span style={{ color: "#000000" }}>Explore your</span>
+                </span>{" "}
+                <span className="fst-italic text-info">hobby</span>{" "}
+                <span className="fst-italic">
+                  {" "}
+                  <span style={{ color: "#000000" }}>or</span>
+                </span>{" "}
+                <span className="fst-italic text-primary">
+                  {" "}
+                  <span style={{ color: "#8064A2" }}>passion</span>
+                </span>
+              </h1>
+              <p className="mt-4">
+                Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers,
+                suppliers, classes, workshops, and places to practice, participate or perform. Your hobby may be about
+                visual or performing arts, sports, games, gardening, model making, cooking, indoor or outdoor
+                activities…
+              </p>
+              <p className="mt-4">
+                If you are an expert or a seller, you can Add your Listing and promote yourself, your students,
+                products, services or events. Hop on your hobbyhorse and enjoy the ride.
+              </p>
+              <img
+                src="./joinIn.svg"
+                alt="Hobby Image"
+                className="img-fluid mt-4"
+                style={{ aspectRatio: "3.23", objectFit: "cover", objectPosition: "center" }}
+              />
+            </article>
+          </section>
           </div>
           <div className="col-lg-4 mt-4 mt-lg-0">
             <aside>

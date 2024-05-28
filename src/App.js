@@ -15,8 +15,9 @@ function App() {
     <Router>
       <div>
         <MyComponent />
+        
         <Routes>
-          <Route path="/signin" element={<SignInPage />} />
+          <Route path="/" element={<SignInPage />} />
           <Route path="/joinin" element={<JoinInPage />} /> 
         </Routes>
         <MainContent2 />
